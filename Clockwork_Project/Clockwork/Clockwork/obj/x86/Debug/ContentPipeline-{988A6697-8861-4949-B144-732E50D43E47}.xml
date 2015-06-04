@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>BulletSprites\bulletSprites.png</Source>
+      <Name>BulletSprites\bulletSprites</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\Documents\Visual Studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\BulletSprites\bulletSprites.xnb</Output>
+      <Time>2014-05-28T18:14:43.333289-05:00</Time>
+    </Item>
+    <Item>
+      <Source>CharacterSprites\MainCharacterLarge.png</Source>
+      <Name>CharacterSprites\MainCharacterLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\Documents\Visual Studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\CharacterSprites\MainCharacterLarge.xnb</Output>
+      <Time>2014-06-10T20:01:55.5281493-05:00</Time>
+    </Item>
+    <Item>
+      <Source>GunSprites\ShotgunLarge.png</Source>
+      <Name>GunSprites\ShotgunLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">0, 0, 0, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\Documents\Visual Studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\GunSprites\ShotgunLarge.xnb</Output>
+      <Time>2014-06-10T20:02:10.8050231-05:00</Time>
+    </Item>
+    <Item>
+      <Source>GunSprites\HandgunLarge.png</Source>
+      <Name>GunSprites\HandgunLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\Documents\Visual Studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\GunSprites\HandgunLarge.xnb</Output>
+      <Time>2014-06-10T20:30:10.3490875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_Chair_Bed.png</Source>
+      <Name>MapSprites\SP_Chair_Bed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_Chair_Bed.xnb</Output>
+      <Time>2014-08-21T19:47:14.8345691-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_Furniture.png</Source>
+      <Name>MapSprites\SP_Furniture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_Furniture.xnb</Output>
+      <Time>2014-08-21T19:47:14.8365693-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_ID_Dec.png</Source>
+      <Name>MapSprites\SP_ID_Dec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_ID_Dec.xnb</Output>
+      <Time>2014-08-21T19:47:14.8445697-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_ID_Floor_Rail_Wind.png</Source>
+      <Name>MapSprites\SP_ID_Floor_Rail_Wind</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_ID_Floor_Rail_Wind.xnb</Output>
+      <Time>2014-08-21T19:47:14.8505701-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_ID_Walls.png</Source>
+      <Name>MapSprites\SP_ID_Walls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_ID_Walls.xnb</Output>
+      <Time>2014-08-21T19:47:14.8555703-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_OD_Door_Window.png</Source>
+      <Name>MapSprites\SP_OD_Door_Window</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_OD_Door_Window.xnb</Output>
+      <Time>2014-08-21T19:47:14.8705712-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_OD_Floor_AngRoof.png</Source>
+      <Name>MapSprites\SP_OD_Floor_AngRoof</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_OD_Floor_AngRoof.xnb</Output>
+      <Time>2014-08-21T19:47:14.9035731-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_OD_Wall_Roof.png</Source>
+      <Name>MapSprites\SP_OD_Wall_Roof</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_OD_Wall_Roof.xnb</Output>
+      <Time>2014-08-21T19:47:14.9425753-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_PS_Furniture.png</Source>
+      <Name>MapSprites\SP_PS_Furniture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_PS_Furniture.xnb</Output>
+      <Time>2014-08-21T19:47:14.9455755-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_Stair_Rails.png</Source>
+      <Name>MapSprites\SP_Stair_Rails</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_Stair_Rails.xnb</Output>
+      <Time>2014-08-21T19:47:14.9705769-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MapSprites\SP_Window_Door_Ex.png</Source>
+      <Name>MapSprites\SP_Window_Door_Ex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\MapSprites\SP_Window_Door_Ex.xnb</Output>
+      <Time>2014-08-21T19:47:14.9735771-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{988A6697-8861-4949-B144-732E50D43E47}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\ClockworkContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Baby Dobbs\documents\visual studio 2010\Projects\Clockwork\Clockwork\Clockwork\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-04-20T12:43:14.0462221-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
