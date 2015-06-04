@@ -1,0 +1,43 @@
+SP_CHAIR_BED
+
+Chairs
+
+8,67 22x34
+
++32,67 22x34
+
+Second row
+8, 67+39  22x34
++32
+
+Couches
+392,73 68x35
++72
+
+Second row
+392, 112 68x35
++72
+
+Side Couches
+11,151  23x65
++28
+
+Small Beds
+194,154 32x82
++107
+
+Large Beds
+234,154 59x82
++107
+
+4 Small beds
+10,224 32x75
++37
+
+Second Row Small Beds
+197,243 32x82
++106
+
+Second Row Large Beds
+237,243 59x82
++106

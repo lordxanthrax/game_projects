@@ -1,0 +1,7 @@
+SP_ID_Walls
+
+
+5,101  95x63
++103,+70
+
+bottom left 4x3 are one pixel to the right

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Audio\ExploClassic.wav</Source>
+      <Name>Audio\ExploClassic</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\ExploClassic.xnb</Output>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\smb_mariodie.wav</Source>
+      <Name>Audio\smb_mariodie</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\smb_mariodie.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Laser Blast.wav</Source>
+      <Name>Audio\Laser Blast</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Laser Blast.xnb</Output>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Mine Explosion.wav</Source>
+      <Name>Audio\Mine Explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Mine Explosion.xnb</Output>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Plasma Blast.wav</Source>
+      <Name>Audio\Plasma Blast</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Plasma Blast.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bullet.png</Source>
+      <Name>Images\bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\bullet.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\mechwing_titlescreen.jpg</Source>
+      <Name>Images\mechwing_titlescreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\mechwing_titlescreen.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\cityscape.png</Source>
+      <Name>Images\cityscape</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\cityscape.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\main_char_spritesheet.png</Source>
+      <Name>Images\main_char_spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">0, 64, 16, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\main_char_spritesheet.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\instructions.png</Source>
+      <Name>Images\instructions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\instructions.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemyFighter2.png</Source>
+      <Name>Images\enemyFighter2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\enemyFighter2.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Gold_Chunk.png</Source>
+      <Name>Images\Gold_Chunk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\Gold_Chunk.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemyFighter3.png</Source>
+      <Name>Images\enemyFighter3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\enemyFighter3.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemyFighter4.png</Source>
+      <Name>Images\enemyFighter4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\enemyFighter4.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemyFighter5.png</Source>
+      <Name>Images\enemyFighter5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">148, 148, 148, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\enemyFighter5.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\laserBeam.png</Source>
+      <Name>Images\laserBeam</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\laserBeam.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\plasmaBlast.png</Source>
+      <Name>Images\plasmaBlast</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\plasmaBlast.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\levelBoss2.png</Source>
+      <Name>Images\levelBoss2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\levelBoss2.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\mine.png</Source>
+      <Name>Images\mine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\mine.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosionSprites.png</Source>
+      <Name>Images\explosionSprites</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\explosionSprites.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\healthbar.png</Source>
+      <Name>Images\healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\healthbar.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\crosshair.jpg</Source>
+      <Name>Images\crosshair</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\crosshair.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemyBullet.png</Source>
+      <Name>Images\enemyBullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\enemyBullet.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\GameOverScreen.png</Source>
+      <Name>Images\GameOverScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\GameOverScreen.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\skybackground.png</Source>
+      <Name>Images\skybackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\skybackground.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\missile.png</Source>
+      <Name>Images\missile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\missile.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\crosshairs.png</Source>
+      <Name>Images\crosshairs</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\crosshairs.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\splash\mechwing1.png</Source>
+      <Name>Images\splash\mechwing1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\splash\mechwing1.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\splash\mechwing2.png</Source>
+      <Name>Images\splash\mechwing2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\splash\mechwing2.xnb</Output>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemyFighter1.png</Source>
+      <Name>Images\enemyFighter1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\enemyFighter1.xnb</Output>
+      <Time>2014-05-05T14:40:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\splash\mechwing3.png</Source>
+      <Name>Images\splash\mechwing3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\splash\mechwing3.xnb</Output>
+      <Time>2014-05-05T18:50:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\nebula.jpg</Source>
+      <Name>Images\nebula</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\nebula.xnb</Output>
+      <Time>2014-05-05T18:53:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\splash\mechwing4.png</Source>
+      <Name>Images\splash\mechwing4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\splash\mechwing4.xnb</Output>
+      <Time>2014-05-05T20:01:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\boss.png</Source>
+      <Name>Images\boss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">0, 0, 0, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\boss.xnb</Output>
+      <Time>2014-05-05T20:29:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\drone.png</Source>
+      <Name>Images\drone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Images\drone.xnb</Output>
+      <Time>2014-05-05T21:47:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>ScoreFont.spritefont</Source>
+      <Name>ScoreFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\ScoreFont.xnb</Output>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Nullsleep - Dirty ROM Dance Mix.mp3</Source>
+      <Name>Audio\Nullsleep - Dirty ROM Dance Mix</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Nullsleep - Dirty ROM Dance Mix.xnb</Output>
+      <Extra>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Nullsleep - Dirty ROM Dance Mix.wma</Extra>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Incident.mp3</Source>
+      <Name>Audio\Incident</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Incident.xnb</Output>
+      <Extra>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Incident.wma</Extra>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Vengeance.mp3</Source>
+      <Name>Audio\Vengeance</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Vengeance.xnb</Output>
+      <Extra>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Vengeance.wma</Extra>
+      <Time>2014-05-05T14:21:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Nemesis.mp3</Source>
+      <Name>Audio\Nemesis</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Nemesis.xnb</Output>
+      <Extra>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Nemesis.wma</Extra>
+      <Time>2014-05-05T14:21:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Ignite.mp3</Source>
+      <Name>Audio\Ignite</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Ignite.xnb</Output>
+      <Extra>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\Audio\Ignite.wma</Extra>
+      <Time>2014-05-05T19:57:12-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{610A46AA-FE29-408D-ADBE-D6F1F370CD4F}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_SystemContent\</RootDirectory>
+      <LoggerRootDirectory>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\Users\jobber markII\Desktop\MechWing_Defense_System_FINAL\MechWing_Defense_System\MechWing_Defense_System\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>H:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>H:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>H:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>H:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>H:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>H:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>H:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-11-12T21:16:59.7762294-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

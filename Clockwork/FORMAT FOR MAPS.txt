@@ -1,0 +1,41 @@
+MAPNAME
+MAPHEIGHT
+MAPWIDTH
+MAPTEXTURESOURCE
+
+BLOCK1
+BLOCK2
+BLOCK3
+...
+BLOCK X-1
+BLOCK X
+
+ENDOFFILE
+
+
+
+so roughly....
+
+TEST
+3
+4
+SOMETHING.PNG
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+will draw
+
+1 2  3  4
+5 6  7  8
+9 10 11 12

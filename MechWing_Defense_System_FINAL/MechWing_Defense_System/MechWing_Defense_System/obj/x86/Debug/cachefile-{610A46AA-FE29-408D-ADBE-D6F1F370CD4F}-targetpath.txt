@@ -1,0 +1,50 @@
+Content\Audio\ExploClassic.xnb
+Content\Audio\smb_mariodie.xnb
+Content\Audio\Laser Blast.xnb
+Content\Audio\Mine Explosion.xnb
+Content\Audio\Plasma Blast.xnb
+Content\Images\bullet.xnb
+Content\Images\mechwing_titlescreen.xnb
+Content\Images\cityscape.xnb
+Content\Images\main_char_spritesheet.xnb
+Content\Images\instructions.xnb
+Content\Images\enemyFighter2.xnb
+Content\Images\Gold_Chunk.xnb
+Content\Images\enemyFighter3.xnb
+Content\Images\enemyFighter4.xnb
+Content\Images\enemyFighter5.xnb
+Content\Images\laserBeam.xnb
+Content\Images\plasmaBlast.xnb
+Content\Images\levelBoss2.xnb
+Content\Images\mine.xnb
+Content\Images\explosionSprites.xnb
+Content\Images\healthbar.xnb
+Content\Images\crosshair.xnb
+Content\Images\enemyBullet.xnb
+Content\Images\GameOverScreen.xnb
+Content\Images\skybackground.xnb
+Content\Images\missile.xnb
+Content\Images\crosshairs.xnb
+Content\Images\splash\mechwing1.xnb
+Content\Images\splash\mechwing2.xnb
+Content\Images\enemyFighter1.xnb
+Content\Images\splash\mechwing3.xnb
+Content\Images\nebula.xnb
+Content\Images\splash\mechwing4.xnb
+Content\Images\boss.xnb
+Content\Images\drone.xnb
+Content\ScoreFont.xnb
+Content\Audio\Nullsleep - Dirty ROM Dance Mix.xnb
+Content\Audio\Nullsleep - Dirty ROM Dance Mix.wma
+Content\Audio\Incident.xnb
+Content\Audio\Incident.wma
+Content\Audio\Vengeance.xnb
+Content\Audio\Vengeance.wma
+Content\Audio\Nemesis.xnb
+Content\Audio\Nemesis.wma
+Content\Audio\Ignite.xnb
+Content\Audio\Ignite.wma
+Content\Audio\GameOver.xgs
+Content\Audio\Wave Bank.xwb
+Content\Audio\Sound Bank.xsb
+Content\Images\boss.png
