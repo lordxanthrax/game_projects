@@ -35,5 +35,10 @@ namespace Clockwork.Classes.LogicalClasses
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
         }
+
+        public void Use()
+        {
+
+        }
     }
 }

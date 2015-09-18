@@ -113,12 +113,13 @@ namespace Clockwork
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
-            playerOne.Update(gameTime, this.Window.ClientBounds);
-            CollisionChecker.CheckCollisions(playerOne, staticItems);
-            playerCamera.LookAt(playerOne.playerSprite.position);
 
+                playerOne.Update(gameTime, this.Window.ClientBounds);
+                CollisionChecker.CheckCollisions(playerOne, staticItems);
+                playerCamera.LookAt(playerOne.playerSprite.position);
+            
             base.Update(gameTime);
+
         }
 
         /// <summary>

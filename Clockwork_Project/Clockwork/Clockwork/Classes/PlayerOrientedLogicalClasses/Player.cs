@@ -198,163 +198,165 @@ namespace Clockwork.Classes.LogicalClasses
         }
 
         public void GetPlayerInput()
-        {   
+        {
             //currentGPS = new GamePadState(GamePad.GetState());
-
-            //if the shoot stance is on, don't bother getting the other keys
-            if (!Keyboard.GetState().IsKeyDown(Keys.LeftShift))
+            if (playerInventory.inventoryOpen == false)
             {
-                isShooting = false;
-                playerSprite.millisecondsPerFrame = 170;
+                //if the shoot stance is on, don't bother getting the other keys
+                if (!Keyboard.GetState().IsKeyDown(Keys.LeftShift))
+                {
+                    isShooting = false;
+                    playerSprite.millisecondsPerFrame = 170;
 
-                //check the 4 directions
-                /*
-                 * 0 - down
-                 * 1- left
-                 * 2- right
-                 * 3 - up
-                */
-                if (Keyboard.GetState().IsKeyDown(Keys.W))
-                {
-                    inputDirection.Y = -1;
-                    facing = 3;
-                    isMoving = true;
-                }
-                else if (Keyboard.GetState().IsKeyDown(Keys.S))
-                {
-                    inputDirection.Y = 1;
-                    facing = 0;
-                    isMoving = true;
-                }
-                else
-                {
-                    isMoving = false;
-                    inputDirection.Y = 0;
-                }
-
-                if (Keyboard.GetState().IsKeyDown(Keys.D))
-                {
-                    inputDirection.X = 1;
-                    facing = 2;
-                    isMoving = true;
-                }
-                else if (Keyboard.GetState().IsKeyDown(Keys.A))
-                {
-                    inputDirection.X = -1;
-                    facing = 1;
-                    isMoving = true;
-                }
-                else
-                {
-                    inputDirection.X = 0;
-                }
-
-                //normalize the vector
-                if ((inputDirection.X > 0 || inputDirection.X < 0) && (inputDirection.Y > 0 || inputDirection.Y < 0))
-                {
-                    inputDirection.Normalize();                              
-                }
-
-                //check for sprinting, and SPRINT!
-                if (Keyboard.GetState().IsKeyDown(Keys.N) && playerStaminaCurrent > 0)
-                {
-                    inputDirection = Vector2.Multiply(inputDirection, 1.8f);
-                    playerStaminaCurrent -= 1;
-                    timeSinceSprinted = 0;
-                    playerSprite.millisecondsPerFrame = 70;
-                }
-            }
-
-            //in this case, we're in the shooting stance, so freeze our character
-            else
-            {
-                inputDirection.X = 0;
-                inputDirection.Y = 0;
-                isShooting = true;
-                isMoving = false;
-
-                //check for a shot
-                if (Keyboard.GetState().IsKeyDown(Keys.J))
-                {
-                    //make sure we fire at our gun's fire rate, and that we have a gun
-                    if (timeSinceFired >= playerInventory.currentWeapon.cooldownTime && playerInventory.currentWeapon != null)
+                    //check the 4 directions
+                    /*
+                     * 0 - down
+                     * 1- left
+                     * 2- right
+                     * 3 - up
+                    */
+                    if (Keyboard.GetState().IsKeyDown(Keys.W))
                     {
-                        if (playerInventory.currentWeapon.Shoot())
-                        {
-                            //reset the timer
-                            timeSinceFired = 0;
+                        inputDirection.Y = -1;
+                        facing = 3;
+                        isMoving = true;
+                    }
+                    else if (Keyboard.GetState().IsKeyDown(Keys.S))
+                    {
+                        inputDirection.Y = 1;
+                        facing = 0;
+                        isMoving = true;
+                    }
+                    else
+                    {
+                        isMoving = false;
+                        inputDirection.Y = 0;
+                    }
 
-                            if (playerInventory.currentWeapon.GetType() == typeof(AmmoBasedWeapon))
-                            {
-                                //Texture2D tempBulletTexture = playerInventory.currentWeapon.weaponBulletTexture;
-                                int tempBulletSpeed = 10;
+                    if (Keyboard.GetState().IsKeyDown(Keys.D))
+                    {
+                        inputDirection.X = 1;
+                        facing = 2;
+                        isMoving = true;
+                    }
+                    else if (Keyboard.GetState().IsKeyDown(Keys.A))
+                    {
+                        inputDirection.X = -1;
+                        facing = 1;
+                        isMoving = true;
+                    }
+                    else
+                    {
+                        inputDirection.X = 0;
+                    }
 
-                                float playerX = playerSprite.position.X + (playerSprite.textureImage.Width / 8);
-                                float playerY = playerSprite.position.Y + (playerSprite.textureImage.Height / 8);
-                                Vector2 tempBulletPosition = Vector2.Zero;
-                                Vector2 tempBulletDirection = Vector2.Zero;
-                                Point tempCurrentFrame = new Point(1, 1);
+                    //normalize the vector
+                    if ((inputDirection.X > 0 || inputDirection.X < 0) && (inputDirection.Y > 0 || inputDirection.Y < 0))
+                    {
+                        inputDirection.Normalize();
+                    }
 
-                                /* 0 - down
-                                 * 1 - left
-                                 * 2 - right
-                                 * 3 - up
-                                */
-                                switch (facing)
-                                {
-                                    case 0:
-                                        {
-                                            tempBulletPosition = new Vector2(playerX - 13, (playerY - 20));
-                                            tempBulletDirection = new Vector2(0, 1);
-                                            tempCurrentFrame = new Point(1, 0);
-                                            break;
-                                        }
-
-                                    case 1:
-                                        {
-                                            tempBulletPosition = new Vector2((playerX - 30), (playerY - 5));
-                                            tempBulletDirection = new Vector2(-1, 0);
-                                            tempCurrentFrame = new Point(1, 1);
-                                            break;
-                                        }
-
-                                    case 2:
-                                        {
-                                            tempBulletPosition = new Vector2((playerX + 30), (playerY - 5));
-                                            tempBulletDirection = new Vector2(1, 0);
-                                            tempCurrentFrame = new Point(1, 2);
-                                            break;
-                                        }
-
-                                    case 3:
-                                        {
-                                            tempBulletPosition = new Vector2(playerX + 10, (playerY - 30));
-                                            tempBulletDirection = new Vector2(0, -1);
-                                            tempCurrentFrame = new Point(1, 3);
-                                            break;
-                                        }
-                                }
-
-                                tempBulletDirection = tempBulletDirection * tempBulletSpeed;
-
-                                //add a bullet to our player's bullets list
-                                BulletSprite tempBulletSprite = new BulletSprite(defaultBulletTexture, tempBulletPosition, new Point(5, 5), 0, tempCurrentFrame,
-                                    new Point(1, 4), tempBulletDirection);
-                                Bullet tempBullet = new Bullet(playerInventory.currentWeapon.weaponDamage, tempBulletSprite);
-                                playerBullets.Add(tempBullet);
-                            }
-                        }
+                    //check for sprinting, and SPRINT!
+                    if (Keyboard.GetState().IsKeyDown(Keys.N) && playerStaminaCurrent > 0)
+                    {
+                        inputDirection = Vector2.Multiply(inputDirection, 1.8f);
+                        playerStaminaCurrent -= 1;
+                        timeSinceSprinted = 0;
+                        playerSprite.millisecondsPerFrame = 70;
                     }
                 }
 
-            }
+                //in this case, we're in the shooting stance, so freeze our character
+                else
+                {
+                    inputDirection.X = 0;
+                    inputDirection.Y = 0;
+                    isShooting = true;
+                    isMoving = false;
 
-            // If player pressed the gamepad thumbstick, move the sprite
-            GamePadState gamepadState = GamePad.GetState(PlayerIndex.One);
-            if (gamepadState.ThumbSticks.Left.X != 0)
-                inputDirection.X += gamepadState.ThumbSticks.Left.X;
-            if (gamepadState.ThumbSticks.Left.Y != 0)
-                inputDirection.Y -= gamepadState.ThumbSticks.Left.Y;
+                    //check for a shot
+                    if (Keyboard.GetState().IsKeyDown(Keys.J))
+                    {
+                        //make sure we fire at our gun's fire rate, and that we have a gun
+                        if (timeSinceFired >= playerInventory.currentWeapon.cooldownTime && playerInventory.currentWeapon != null)
+                        {
+                            if (playerInventory.currentWeapon.Shoot())
+                            {
+                                //reset the timer
+                                timeSinceFired = 0;
+
+                                if (playerInventory.currentWeapon.GetType() == typeof(AmmoBasedWeapon))
+                                {
+                                    //Texture2D tempBulletTexture = playerInventory.currentWeapon.weaponBulletTexture;
+                                    int tempBulletSpeed = 10;
+
+                                    float playerX = playerSprite.position.X + (playerSprite.textureImage.Width / 8);
+                                    float playerY = playerSprite.position.Y + (playerSprite.textureImage.Height / 8);
+                                    Vector2 tempBulletPosition = Vector2.Zero;
+                                    Vector2 tempBulletDirection = Vector2.Zero;
+                                    Point tempCurrentFrame = new Point(1, 1);
+
+                                    /* 0 - down
+                                     * 1 - left
+                                     * 2 - right
+                                     * 3 - up
+                                    */
+                                    switch (facing)
+                                    {
+                                        case 0:
+                                            {
+                                                tempBulletPosition = new Vector2(playerX - 13, (playerY - 20));
+                                                tempBulletDirection = new Vector2(0, 1);
+                                                tempCurrentFrame = new Point(1, 0);
+                                                break;
+                                            }
+
+                                        case 1:
+                                            {
+                                                tempBulletPosition = new Vector2((playerX - 30), (playerY - 5));
+                                                tempBulletDirection = new Vector2(-1, 0);
+                                                tempCurrentFrame = new Point(1, 1);
+                                                break;
+                                            }
+
+                                        case 2:
+                                            {
+                                                tempBulletPosition = new Vector2((playerX + 30), (playerY - 5));
+                                                tempBulletDirection = new Vector2(1, 0);
+                                                tempCurrentFrame = new Point(1, 2);
+                                                break;
+                                            }
+
+                                        case 3:
+                                            {
+                                                tempBulletPosition = new Vector2(playerX + 10, (playerY - 30));
+                                                tempBulletDirection = new Vector2(0, -1);
+                                                tempCurrentFrame = new Point(1, 3);
+                                                break;
+                                            }
+                                    }
+
+                                    tempBulletDirection = tempBulletDirection * tempBulletSpeed;
+
+                                    //add a bullet to our player's bullets list
+                                    BulletSprite tempBulletSprite = new BulletSprite(defaultBulletTexture, tempBulletPosition, new Point(5, 5), 0, tempCurrentFrame,
+                                        new Point(1, 4), tempBulletDirection);
+                                    Bullet tempBullet = new Bullet(playerInventory.currentWeapon.weaponDamage, tempBulletSprite);
+                                    playerBullets.Add(tempBullet);
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                // If player pressed the gamepad thumbstick, move the sprite
+                GamePadState gamepadState = GamePad.GetState(PlayerIndex.One);
+                if (gamepadState.ThumbSticks.Left.X != 0)
+                    inputDirection.X += gamepadState.ThumbSticks.Left.X;
+                if (gamepadState.ThumbSticks.Left.Y != 0)
+                    inputDirection.Y -= gamepadState.ThumbSticks.Left.Y;
+            }
         }
 
         //just a clutter saver
